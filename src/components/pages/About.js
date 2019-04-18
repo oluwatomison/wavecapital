@@ -3,12 +3,6 @@ import { NavLink } from 'react-router-dom'
 import Navbar from '../layout/Navbar'
 import Footer from '../layout/Footer'
 
-const teamTagLine = {
-  textAlign: 'center',
-  marginTop: 15 + 'px',
-  fontFamily: 'Open Sans'
-}
-
 export default function About() {
   return (
     <>
@@ -43,20 +37,6 @@ export default function About() {
               <div className="teamCardText">
                 <h5 className="teamCardHeader">Daniel</h5>
                 <p className="teamCardPosition">CEO, Co-founder</p>
-              </div>
-            </div>
-            <div className="col-md-4 teamCard">
-              <img src="./img/team/2.jpg" alt="Team Member" className="teamImg" />
-              <div className="teamCardText">
-                <h5 className="teamCardHeader">AYO</h5>
-                <p className="teamCardPosition">Co-founder, Marketing</p>
-              </div>
-            </div>
-            <div className="col-md-4 teamCard">
-              <img src="./img/team/2.jpg" alt="Team Member" className="teamImg" />
-              <div className="teamCardText">
-                <h5 className="teamCardHeader">Clinton</h5>
-                <p className="teamCardPosition">Software Developer</p>
               </div>
             </div>
           </div>
